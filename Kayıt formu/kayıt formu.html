@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt ol</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<head>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+.kayit_ol{
+    width: 100%;
+    height: 600px;
+    background-color:dimgrey;
+}
+.kutu{
+    width: 530px;
+    height: 430px;
+    background-color:darkblue;
+    margin:auto;
+    position:relative;
+    top: 35px;
+    border-radius: 5px;
+
+}  
+.kayit_header{
+    width: 150px;
+    height: 27px;
+    border-style: solid;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.kutu input[type="text"]{
+    width: 170px;
+    height: 30px;
+    position: relative;
+    top: 65px;
+    margin-left: 15%;
+    margin-right: -15%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+.kutu input[type="email"],input[type="number"],input[type="password"]{
+    width: 270px;
+    height: 30px;
+    margin-left: 25%;
+    margin-right: -25%;
+    position: relative;
+    top: 90px;
+    border-radius: 5px;
+    margin-top: 7px;
+    text-align: center;
+    background-color: white;
+}
+.kutu input[type="submit"]{
+    width: 90px;
+    height: 30px;
+    position: relative;
+    top: 120px;
+    margin-left: 235px;
+    border-radius: 5px;
+    background-color: white;
+}
+.facebooklogin{
+    width: 180px;
+    height: 20px;
+    background-color: lightskyblue;
+    margin: 180px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.facebooklogin a{
+    text-decoration: none;
+}
+    
+    </style>
+</head>
+<body>
+    <div class="kayit_ol"> 
+        <div class="kutu">
+            <div class="kayit_header">KAYIT FORMU</div>
+            <form>
+                <input type="text" placeholder="Adınız" required>
+                <input type="text" placeholder="Soyadınız" required> <br>
+                <input type="email" placeholder="Eposta" required> <br>
+                <input type="number" placeholder="Telefon numaranız"> <br>
+                <input type="password" placeholder="Şİfreniz" required> <br>
+                <input type="password" placeholder="Şifrenizi onaylayın" required> <br>
+                <input type="submit" value="Kayıt ol"> 
+                <div class="facebooklogin"><a href="https://www.facebook.com">Facebook ile Kayıt ol</a></div>
+
+            </form>
+        
+        </div>
+
+    </div>
+</body>
+</html>
